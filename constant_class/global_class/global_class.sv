@@ -12,6 +12,9 @@ class data;
   function new();
     a="team";
   endfunction
+  function void display();
+    $display("a=%0d,b=%0d",a,b);
+  endfunction
 endclass//endclass-1
 
 //---class 2---
